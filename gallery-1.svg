@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="COFFEE, CRAFTED">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#573727"/><stop offset="1" stop-color="#C88B54"/></linearGradient>
+      <pattern id="grain" width="38" height="38" patternUnits="userSpaceOnUse"><circle cx="7" cy="8" r="1.4" fill="#fff" opacity=".13"/><circle cx="28" cy="25" r="1" fill="#fff" opacity=".12"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2B1B12" flood-opacity=".22"/></filter>
+    </defs>
+    <rect width="900" height="650" fill="url(#g)"/><rect width="900" height="650" fill="url(#grain)"/>
+    <circle cx="760" cy="110" r="150" fill="#F5E9DA" opacity=".12"/><circle cx="100" cy="570" r="190" fill="#2B1B12" opacity=".10"/>
+    <g filter="url(#shadow)" transform="translate(240 130)">
+        <ellipse cx="210" cy="390" rx="225" ry="38" fill="#2B1B12" opacity=".22"/>
+        <path d="M65 135h300l-25 225q-8 70-125 70T90 360z" fill="#F5E9DA"/>
+        <path d="M365 185h50q85 0 72 88t-93 75h-34" fill="none" stroke="#F5E9DA" stroke-width="35" stroke-linecap="round"/>
+        <path d="M95 175h240q-20 55-120 55T95 175" fill="#6F4E37"/>
+        <path d="M160 95q-35-55 8-90M225 95q-35-55 8-90M290 95q-35-55 8-90" fill="none" stroke="#F5E9DA" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+        <path d="M180 280q35-40 70 0q-35 42-70 0z" fill="#D9822B"/>
+        </g>
+    <text x="52" y="565" fill="#fff" font-family="Georgia,serif" font-size="42" font-weight="bold">COFFEE, CRAFTED</text>
+    <text x="54" y="606" fill="#fff" font-family="Arial,sans-serif" font-size="20" opacity=".9">A little ritual worth slowing down for.</text></svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="SLOW MORNINGS">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#70442D"/><stop offset="1" stop-color="#D9A36C"/></linearGradient>
+      <pattern id="grain" width="38" height="38" patternUnits="userSpaceOnUse"><circle cx="7" cy="8" r="1.4" fill="#fff" opacity=".13"/><circle cx="28" cy="25" r="1" fill="#fff" opacity=".12"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2B1B12" flood-opacity=".22"/></filter>
+    </defs>
+    <rect width="900" height="650" fill="url(#g)"/><rect width="900" height="650" fill="url(#grain)"/>
+    <circle cx="760" cy="110" r="150" fill="#F5E9DA" opacity=".12"/><circle cx="100" cy="570" r="190" fill="#2B1B12" opacity=".10"/>
+    <g filter="url(#shadow)">
+        <rect x="110" y="110" width="680" height="390" rx="24" fill="#F5E9DA"/>
+        <rect x="145" y="145" width="290" height="210" rx="12" fill="#9B6845"/><rect x="465" y="145" width="290" height="210" rx="12" fill="#9B6845"/>
+        <path d="M145 250h290M465 250h290" stroke="#F5E9DA" stroke-width="8" opacity=".6"/>
+        <rect x="180" y="390" width="540" height="35" rx="15" fill="#4A2B1E"/><path d="M220 425v85M680 425v85" stroke="#4A2B1E" stroke-width="20"/>
+        <circle cx="290" cy="220" r="35" fill="#D9822B"/><circle cx="610" cy="220" r="35" fill="#D9822B"/>
+        </g>
+    <text x="52" y="565" fill="#fff" font-family="Georgia,serif" font-size="42" font-weight="bold">SLOW MORNINGS</text>
+    <text x="54" y="606" fill="#fff" font-family="Arial,sans-serif" font-size="20" opacity=".9">Good food. Good people. Good coffee.</text></svg>

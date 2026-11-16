@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="BAKED WITH LOVE">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A45C27"/><stop offset="1" stop-color="#E5B66B"/></linearGradient>
+      <pattern id="grain" width="38" height="38" patternUnits="userSpaceOnUse"><circle cx="7" cy="8" r="1.4" fill="#fff" opacity=".13"/><circle cx="28" cy="25" r="1" fill="#fff" opacity=".12"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#2B1B12" flood-opacity=".22"/></filter>
+    </defs>
+    <rect width="900" height="650" fill="url(#g)"/><rect width="900" height="650" fill="url(#grain)"/>
+    <circle cx="760" cy="110" r="150" fill="#F5E9DA" opacity=".12"/><circle cx="100" cy="570" r="190" fill="#2B1B12" opacity=".10"/>
+    <g filter="url(#shadow)" transform="translate(190 165)">
+        <ellipse cx="250" cy="335" rx="255" ry="42" fill="#2B1B12" opacity=".2"/>
+        <path d="M45 300q-10-155 95-195q72-30 117 32q68-76 142-16q102 82 40 195q-64 95-226 86Q87 395 45 300z" fill="#E8A64E"/>
+        <path d="M90 290q-5-105 62-145M180 350q-42-120 9-202M275 365q-25-120 32-213M365 345q45-105 12-168" fill="none" stroke="#B96B28" stroke-width="18" stroke-linecap="round"/>
+        <path d="M70 260q175-80 345 10" fill="none" stroke="#F5D18A" stroke-width="18" opacity=".8"/>
+        </g>
+    <text x="52" y="565" fill="#fff" font-family="Georgia,serif" font-size="42" font-weight="bold">BAKED WITH LOVE</text>
+    <text x="54" y="606" fill="#fff" font-family="Arial,sans-serif" font-size="20" opacity=".9">Fresh pastries, every single morning.</text></svg>
